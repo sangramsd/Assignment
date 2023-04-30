@@ -1,0 +1,9 @@
+CREATE TABLE `admitcard`.`cards` (
+  `name` VARCHAR(200) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `phoneno` BIGINT(12) NOT NULL,
+  `address` VARCHAR(500) NOT NULL,
+  `rollno` BIGINT(50) NOT NULL,
+  `school` VARCHAR(45) NOT NULL,
+  `std` BIGINT(50) NOT NULL,
+  PRIMARY KEY (`rollno`));
